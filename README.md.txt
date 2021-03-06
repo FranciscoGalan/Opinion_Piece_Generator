@@ -1,1 +1,0 @@
-# Opinion piece generator
