@@ -1,0 +1,926 @@
+1616343211382	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofiletYQiQH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616343213688	Marionette	INFO	Listening on port 57458
+1616343214013	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://twitter.com"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+JavaScript error: resource://devtools/server/actors/network-monitor/network-response-listener.js, line 571: NS_ERROR_INVALID_CONTENT_ENCODING: Component returned failure code: 0x804b001b (NS_ERROR_INVALID_CONTENT_ENCODING) [nsIStreamListener.onDataAvailable]
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://twitter.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://twitter.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+JavaScript error: https://twitter.com/?logout=1616344452280, line 131: ChunkLoadError: Loading chunk 17 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/shared~ondemand.EmojiPickerData~ondemand.EmojiPicker.c8bd3f05.js)
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2305))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2305))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/page-style.js:1002:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn2.child3/pagestyle25 (resource://devtools/server/actors/page-style.js:1002:5)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+1616345125467	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+1616345472151	Marionette	INFO	Stopped listening on port 57458
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616345731404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofiletMcc2Z"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616345733547	Marionette	INFO	Listening on port 58785
+1616345734026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/online07/aplicacionei/eiportadacom/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+1616347467163	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616347493574	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616347560044	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: "Error writing request: getGrids"
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.reforma.com/aplicacioneslibre/preacceso/articulo/default.aspx?__rval=1&urlredirect=https://www.reforma.com/la-mirada-de-vicente-rojo-2021-03-21/op201471?pc=102&referer=--7d616165662f3a3a6262623b6770737a6778743b767a783a-- line 1672 > injectedScript, line 1: ReferenceError: fbq is not defined
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 225: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: blob:https://m0zilla.site/067807c3-59fb-4ea7-82de-dd4ae86df430, line 1: unreachable code after return statement
+1616348424041	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101, line 6: Script terminated by timeout at:
+Ma@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:4745
+Ee@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:30774
+Ne@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:31742
+Gg@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:64163
+Hg.prototype.g@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:55001
+sg/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:48973
+y@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:3275
+sg@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:48946
+nh/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:63385
+y@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:3275
+nh@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:63294
+lh@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:60005
+ih.prototype.Hb@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:59632
+We/a.g<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:33667
+ge/</<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:27616
+de/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:27350
+Od/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:24624
+de@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:27463
+ge/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:27589
+Od/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:24624
+Od/<@https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101:6:24668
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 453: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 2JavaScriJavaScript error: resource://gre/actors/PictureInPictureChild.jsm, li9p9: InvalidnStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureTet error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed o
+299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPicturggle' has been destroyed
+eToggle' has been destroyed
+JavaScriptJavaScript error: resource://gre/actors/PictureInPictureChild.j errors: resourJce://gre/acmtava, line 299: InvalidStateError: JSoScript error: resource://gre/actors/PictureInPictureChilrd.jsm, line 299W: InvalidStateError: JSWindoiwActorsChild.contentWindow getter: Canno/t access properPty 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+nidcotwuArcetIonrPCihcitludr.ecCohnitled.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictnutrWeiIndow gettenr: Cannot access property 'contenPtWindow' aftier actor 'PictureInPictucreToggle' has been destroyedt
+ureToggle' has been destroyed
+JavaScript error: resource://gJavaScripre/actot errors/PJavar: resource://gre/actors/PictureInPictureictureInPictuScriptChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+ reChild.jesm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access prroperty 'contentWindow' after actor 'PictureInPictureToggle' rhas been destor: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalirdStateError: JSWindowActorChild.contentWindow getter: Canoyendot access property 'content
+Window' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateErrorJJavaScript error: resource://g: JSWire/anavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+dowAcctorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+tors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot Jaccess property 'contentWindow' after actor 'PictureInPictureTogaJgvalaveSa'cS rchirapistp  tbe ereerrnor rod:re :sr terrseoosyuoerudcr
+e://gre/actors/ce://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyedP
+ictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+1616350277676	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 63: Error: Error: not allowed
+console.error: "Error writing request: getGrids"
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+JavaScript error: https://www.reforma.com/aplicacioneslibre/preacceso/articulo/default.aspx?__rval=1&urlredirect=https://www.reforma.com/templo-mayor-f-bartolome-2021-03-21/op201470?pc=102&referer=--7d616165662f3a3a6262623b6770737a6778743b767a783a-- line 1672 > injectedScript, line 1: ReferenceError: fbq is not defined
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/page-style.js:1002:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/page-style.js:571:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn1.child3/pagestyle42 (resource://devtools/server/actors/page-style.js:1002:5)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+1616350723896	Marionette	INFO	Stopped listening on port 58785
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+1616463211714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofileL2viuo"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616463216024	Marionette	INFO	Listening on port 50959
+1616463216467	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616463264066	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616463267182	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/online07/aplicacionei/eiportadacom/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://cdn.snigelweb.com/pub/w3schools.com/20200508/snhb-w3schools.com.min.js?202103041122, line 128: TypeError: d.loadGlobalSettings is undefined
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616465204541	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 63: Error: Error: not allowed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+JavaScript error: https://www.reforma.com/aplicacioneslibre/preacceso/articulo/default.aspx?__rval=1&urlredirect=https://www.reforma.com/templo-mayor-f-bartolome-2021-03-22/op201506?pc=102&referer=--7d616165662f3a3a6262623b6770737a6778743b767a783a-- line 1685 > injectedScript, line 1: ReferenceError: fbq is not defined
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+1616472698853	Marionette	INFO	Stopped listening on port 50959
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 299: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616696480115	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofiledOciHd"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616696483843	Marionette	INFO	Listening on port 49419
+1616696484247	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616696732244	Marionette	INFO	Stopped listening on port 49419
+1616696739753	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofilee0z7UZ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616696743464	Marionette	INFO	Listening on port 49647
+1616696743891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616696783279	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616696855583	Marionette	INFO	Stopped listening on port 49647
+1616696867745	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofileIz4B9G"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616696870928	Marionette	INFO	Listening on port 49821
+1616696871372	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616696919567	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://nitratine.net/static/js/search.js, line 16: TypeError: searchPageSearchInput is null
+1616697500324	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616697500326	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616698236667	Marionette	INFO	Stopped listening on port 49821
+1616698245887	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofileRx1osX"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616698249068	Marionette	INFO	Listening on port 51314
+1616698249518	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616698313346	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616698565754	Marionette	INFO	Stopped listening on port 51314
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616699060259	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofilepqVjCy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616699063204	Marionette	INFO	Listening on port 51779
+1616699063382	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 26200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1616699204967	Marionette	INFO	Stopped listening on port 51779
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616700184520	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofilexI5RRv"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616700187359	Marionette	INFO	Listening on port 56057
+1616700187643	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/login, line 131: ChunkLoadError: Loading chunk 240 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.emoji.en.e3007905.js)
+1616700211840	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616701532361	Marionette	INFO	Stopped listening on port 56057
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616701539960	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofileCQ9vA1"
+1616701551769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofiler0n91T"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616701555280	Marionette	INFO	Listening on port 57047
+1616701555418	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616701580775	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616701585935	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://creatives.gruporeforma.com/riel/2021/mar/mecanica/960x250/js/jquery-1.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://open.spotify.com/embed-podcast/show/7GIjPB112ZItDWPcDSG5Ze, line 1: SyntaxError: expected expression, got '%'
+1616703341254	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://open.spotify.com/embed-podcast/show/7GIjPB112ZItDWPcDSG5Ze, line 1: SyntaxError: expected expression, got '%'
+JavaScript warning: https://creatives.gruporeforma.com/riel/2021/mar/mecanica/960x250/js/jquery-1.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616703354357	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript error: https://open.spotify.com/embed-podcast/show/7GIjPB112ZItDWPcDSG5Ze, line 1: SyntaxError: expected expression, got '%'
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2298, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2298, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2299, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2299, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2300, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2300, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2301, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2301, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2302, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2302, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2303, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2303, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2304, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2304, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2305, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2305, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2306, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2306, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2307, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2307, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2308, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2308, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2309, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet2309, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:113:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:332:13\nonPacket@resource://devtools/client/devtools-client.js:489:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 99))
+JavaScript warning: https://creatives.gruporeforma.com/riel/2021/mar/mecanica/960x250/js/jquery-1.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616703394356	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616703395509	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript error: https://open.spotify.com/embed-podcast/show/7GIjPB112ZItDWPcDSG5Ze, line 1: SyntaxError: expected expression, got '%'
+JavaScript warning: https://creatives.gruporeforma.com/riel/2021/mar/mecanica/960x250/js/jquery-1.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616703434365	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616703984657	Marionette	INFO	Stopped listening on port 57047
+1616806192218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofilem584yH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616806195930	Marionette	INFO	Listening on port 64547
+1616806196379	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://open.spotify.com/embed-podcast/show/7GIjPB112ZItDWPcDSG5Ze, line 1: SyntaxError: expected expression, got '%'
+JavaScript warning: https://creatives.gruporeforma.com/riel/2021/mar/mecanica/960x250/js/jquery-1.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616806215652	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: "Tried to send a 'frameUpdate' event on an already destroyed actor 'frameTarget'"
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 479: TypeError: this._nodeActorsMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 479: TypeError: this._nodeActorsMap is null
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher4, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:288:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:125:48
+
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 479: TypeError: this._nodeActorsMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 479: TypeError: this._nodeActorsMap is null
+JavaScript error: https://open.spotify.com/embed-podcast/show/7GIjPB112ZItDWPcDSG5Ze, line 1: SyntaxError: expected expression, got '%'
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 479: TypeError: this._nodeActorsMap is null
+JavaScript warning: https://creatives.gruporeforma.com/riel/2021/mar/mecanica/960x250/js/jquery-1.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616806244873	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616806245045	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:(fpc15xyc5a6=function(t,r,e,o,n,p,c,a,f,y){for(;2>o;)for(a=e[p=typeof t[o++]]={},c=window[p.replace(/./,p.charAt().toUpperCase())],f=r?r(c).concat(r(c.prototype)):[],p=0;n=f[p++];)try{'_'!=n.charAt()&&(a[n]=(y=c[n]).apply.bind(y))}catch(i){}return function(t,r,o){return e[typeof t][r](t,o)}}([{},[].slice],Object.getOwnPropertyNames,{},0))'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:439:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2156:35
+addAllSources@resource://devtools/server/actors/thread.js:1509:14
+watch@resource://devtools/server/actors/resources/sources.js:52:17
+watchResources@resource://devtools/server/actors/resources/index.js:214:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:97:24
+addWatcherDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:34:20
+_addWatcherDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:412:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:354:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:(fpc15xyc5a6=function(t,r,e,o,n,p,c,a,f,y){for(;2>o;)for(a=e[p=typeof t[o++]]={},c=window[p.replace(/./,p.charAt().toUpperCase())],f=r?r(c).concat(r(c.prototype)):[],p=0;n=f[p++];)try{'_'!=n.charAt()&&(a[n]=(y=c[n]).apply.bind(y))}catch(i){}return function(t,r,o){return e[typeof t][r](t,o)}}([{},[].slice],Object.getOwnPropertyNames,{},0))'
+1616806285346	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+JavaScript error: https://open.spotify.com/embed-podcast/show/7GIjPB112ZItDWPcDSG5Ze, line 1: SyntaxError: expected expression, got '%'
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+JavaScript warning: https://creatives.gruporeforma.com/riel/2021/mar/mecanica/960x250/js/jquery-1.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616806714141	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616806714271	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+1616806717611	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616806723692	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 63: Error: Error: not allowed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript error: https://open.spotify.com/embed-podcast/show/7GIjPB112ZItDWPcDSG5Ze, line 1: SyntaxError: expected expression, got '%'
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://creatives.gruporeforma.com/riel/2021/mar/mecanica/960x250/js/jquery-1.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616806773078	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616806774576	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616806774595	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616806777251	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: https://www.reforma.com/aplicacioneslibre/preacceso/articulo/default.aspx?__rval=1&urlredirect=https://www.reforma.com/templo-mayor-f-bartolome-2021-03-26/op201781?pc=102&referer=--7d616165662f3a3a6262623b6770737a6778743b767a783a-- line 1685 > injectedScript, line 1: ReferenceError: fbq is not defined
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+1616807337888	Marionette	INFO	Stopped listening on port 64547
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616807352663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofileFMdNBw"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616807356154	Marionette	INFO	Listening on port 49867
+1616807356328	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://open.spotify.com/embed-podcast/show/7GIjPB112ZItDWPcDSG5Ze, line 1: SyntaxError: expected expression, got '%'
+JavaScript warning: https://creatives.gruporeforma.com/riel/2021/mar/mecanica/960x250/js/jquery-1.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616807369620	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616807370148	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616807373035	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616807381363	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616807595634	Marionette	INFO	Stopped listening on port 49867
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rs\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofileQ0hC5r"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616807597311	Marionette	INFO	Listening on port 50344
+1616807597761	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2424: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jsfunmenu.js?ts=180220211126, line 2421: unreachable code after return statement
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://open.spotify.com/embed-podcast/show/7GIjPB112ZItDWPcDSG5Ze, line 1: SyntaxError: expected expression, got '%'
+JavaScript warning: https://creatives.gruporeforma.com/riel/2021/mar/mecanica/960x250/js/jquery-1.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1616807668443	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1616807671968	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616807675736	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://gruporeforma.elnorte.com/graficohtml5/especial/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.reforma.com/aplicacioneslibre/preacceso/articulo/default.aspx?__rval=1&urlredirect=https://www.reforma.com/templo-mayor-f-bartolome-2021-03-26/op201781?pc=102&referer=--7d616165662f3a3a6262623b6770737a6778743b767a783a-- line 1685 > injectedScript, line 1: ReferenceError: fbq is not defined
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.reforma.com/libre/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img.gruporeforma.com/reforma/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616808693441	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616808696137	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+1616808827142	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616808829342	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+1616808925002	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1616808929418	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+[Child 4328, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+[Child 4328, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1616809008428	Marionette	INFO	Stopped listening on port 50344
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616816331317	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANALYT~1\\AppData\\Local\\Temp\\rust_mozprofilewBPcQV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616816334629	Marionette	INFO	Listening on port 64132
+1616816334946	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617035378620	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617151145691	Marionette	INFO	Stopped listening on port 64132
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
