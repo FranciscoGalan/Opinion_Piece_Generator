@@ -12,13 +12,13 @@ The Opinion Piece Generator generates a rough draft of an opinion piece based on
 
 [Image]
 
-Fragments of the opinion piece could also be used as a basis for social media content or other marketing materials:
+Fragments of the opinion piece could also be used for social media content or other marketing materials:
 
 [Image]
 
 Finally, the repository includes metrics and visualizations to see how well the Generator imitates the style of the original texts:
 
-[Image]
+![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/dresser_dashboard.JPG)
 
 
 
@@ -28,7 +28,7 @@ To create the  generator, we followed these steps:
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/pipeline_diagram.png)
 
-As a demonstration, we selected five famous Mexican columnists: Denisse Dresser, Enrique Krauze, John Ackerman, Ricardo Raphael, and Valeria Moy.
+To demonstrate, we selected five famous Mexican columnists (Denisse Dresser, Enrique Krauze, John Ackerman, Ricardo Raphael, and Valeria Moy) and used their articles as a basis.
 
 #### Scraping 
 
