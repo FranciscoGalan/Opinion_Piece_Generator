@@ -1,58 +1,53 @@
-# Generador de artículos de opinión
+# Opinion Piece Generator
 
-El objetivo de este proyecto es crear un generador de artículos de opinión [1], es decir, un programa que automáticamente escriba artículos de opinión originales sobre hechos nacionales recientes. Además, el generador podrá escribir artículos opinión de acuerdo al estilo de cualquier autor. 
+A machine learning model which writes opinion pieces based on the style of an author.
 
-
-## Equipo
-
-
-
-*   Francisco Álvarez
-*   Francisco Galán
-*   José María Ramos
-
-
-## **Plan de trabajo**
-
-Planeamos tomar diversos artículos de opinión de la web y utilizarlos como base para entrenar un modelo. Idealmente, buscamos obtener un modelo general que pueda ser entrenado con diferentes datos. De esta forma, podremos entrenarlo con los artículos de un autor en particular y reproducir su estilo. Por tanto, el modelo potencialmente podrá reproducir el estilo de cualquier autor. 
-
-En general, el procedimiento que seguiremos será este: 
+![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/generating_tweet.gif)
 
 
 
+## What it does
 
-1. **Obtener los datos**. Haremos web scraping para obtener los artículos de opinión de al menos tres columnistas. Más adelante, una vez que tengamos un modelo funcional, podremos regresar a este paso y scrapear artículos de otros columnistas. 
+The Opinion Piece Generator generates a rough draft of an opinion piece based on the style one or various texts. 
 
-2. **Limpiar los datos**. Debemos decidir cómo vamos a estructurar los datos. Por un lado, habrá que decidir si mantener la división de párrafos (quizá sea importante al momento de entrenar al modelo) y cómo. Por otro lado, sospechamos que es importante conservar caracteres especiales como acentos, comas, dos puntos, etc. **  
-**
-3. **Entrenar el modelo**. Nos falta investigar qué librerías y modelos podemos utilizar para crear el generador. Por lo pronto, estos son algunos candidatos: 
-    *   Semantic brand score
-    *   Topic modeling
-    *   LDA
-    *   Gensim
-    *   Stanza
-    *   Spacy
-    *   NLTK 
+[Image]
 
-4. **(Opcional) Enlazar con Twitter. **Si da tiempo, intentaremos que el modelo tome información en tiempo real de Twitter. Así, los artículos que se escriban serán sobre noticias recientes del país.
+In addition, fragments of the opinion piece could be used as a basis for, say, social media content or marketing materials:
 
+[Image]
 
-## Fechas de entrega
+The repository also includes metrics and visualizations to see how well the Generator imitates the style of the original texts:
+
+[Image]
 
 
 
-*   _1 - 8 marzo_: Scrapear información de internet. 
-*   _8 - 12 marzo_: Limpiar y estructurar la información.
-*   _12 - 20 marzo_: Seleccionar y entrenar el modelo.
-*   _20 - 27 marzo_: Pulir detalles del modelo y elaborar la presentación para el HackShow.
+## Usage
+
+### Pipeline
+
+The data pipeline involves several steps:
+
+![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/pipeline_diagram.png)
+
+#### Scraping 
+
+#### Cleaning
+
+#### Analyzing
+
+#### Modeling
+
+#### Generating
+
+We used a Neural Network LSTM and trained it with over 1000 epochs.
 
 
-## División del trabajo
 
-Lo iremos planeando sobre la marcha. 
+## Dataset
 
+The dataset with all the scraped and cleaned articles from the authors (Denisse Dresser, Enrique Krauze, John Ackerman, Ricardo Raphael, and Valeria Moy) can be found in the /Data/Data_clean_csv directory.
 
-<!-- Footnotes themselves at the bottom. -->
-## Notas
-
-[1] En este tipo de artículos, un autor emite su opinión sobre hechos recientes de relevancia nacional. Por lo general, estos artículos suelen aparecen en la sección de Opinión de periódicos como_ Reforma_, _El Universal_, _La Jornada_, entre otros. 
+| Dataset  | Location                                                     | Date of scraping |
+| -------- | ------------------------------------------------------------ | ---------------- |
+| Articles | https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Data/Data_clean_csv/clean_dataframe.csv | 91-03-2021       |
