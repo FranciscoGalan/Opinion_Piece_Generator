@@ -2,7 +2,7 @@
 
 A machine learning model which writes opinion pieces based on the style of an author.
 
-![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/generating_tweet.gif)
+![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/newspaper_cover.JPG)
 
 NOTE: Although all the examples shown in this file are in Spanish, the model can be used for any language.
 
@@ -14,7 +14,7 @@ The Opinion Piece Generator generates a rough draft of an opinion piece based on
 
 Fragments of the opinion piece could also be used for social media content or other marketing materials:
 
-[Image]
+![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/dashboard_tweets.png)
 
 Finally, the repository includes metrics and visualizations to see how well the Generator imitates the style of the original texts:
 
