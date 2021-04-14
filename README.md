@@ -4,7 +4,7 @@ A machine learning model which writes opinion pieces based on the style of an au
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/generating_tweet.gif)
 
-
+NOTE: Although all the examples shown in this file are in Spanish, the model can be used for any language.
 
 ## What it does
 
@@ -12,23 +12,23 @@ The Opinion Piece Generator generates a rough draft of an opinion piece based on
 
 [Image]
 
-In addition, fragments of the opinion piece could be used as a basis for, say, social media content or marketing materials:
+Fragments of the opinion piece could also be used as a basis for social media content or other marketing materials:
 
 [Image]
 
-The repository also includes metrics and visualizations to see how well the Generator imitates the style of the original texts:
+Finally, the repository includes metrics and visualizations to see how well the Generator imitates the style of the original texts:
 
 [Image]
 
 
 
-## Usage
+## How it is built
 
-### Pipeline
-
-The data pipeline involves several steps:
+To create the  generator, we followed these steps:
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/pipeline_diagram.png)
+
+As a demonstration, we selected five famous Mexican columnists: Denisse Dresser, Enrique Krauze, John Ackerman, Ricardo Raphael, and Valeria Moy.
 
 #### Scraping 
 
