@@ -26,19 +26,19 @@ Finally, the repository includes metrics and visualizations to see how well the 
 
 To create the  generator, we followed these steps:
 
-![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/pipeline_diagram.png)
+![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/pipeline_diagram.JPG)
 
 To demonstrate, we selected five famous Mexican columnists (Denisse Dresser, Enrique Krauze, John Ackerman, Ricardo Raphael, and Valeria Moy) and used their articles as a basis.
 
-#### Scraping 
+### Scraping 
 
-#### Cleaning
+### Cleaning
 
-#### Analyzing
+### Analyzing
 
-#### Modeling
+### Modeling
 
-#### Generating
+### Generating
 
 We used a Neural Network LSTM and trained it with over 1000 epochs.
 
