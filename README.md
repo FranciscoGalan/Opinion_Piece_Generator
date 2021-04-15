@@ -25,21 +25,27 @@ Finally, the project includes metrics and visualizations to see how well the Gen
 
 ## How it is built
 
-To create the  generator, we followed five steps:
+To create the  generator, we followed these five steps:
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/pipeline_diagram.JPG)
 
-To demonstrate, we selected five famous Mexican columnists and used their articles as a basis.
+To demonstrate, we selected five prominent Mexican columnists and used their articles as a basis.
 
 ### Scraping 
 
 We used [Selenium](https://selenium-python.readthedocs.io/) to extract all the links to the articles the authors, either from their personal website or a news & media website. Then, we extracted the body of the articles with [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
-The scrapers can be found in the /Scraping directory.
+[^1]: The scrapers can be found in the /Scraping directory and the raw data is located in Data/Data_raw.
+
+Here's a Notebook example: [scraper_Enrique_Krauze.ipynb](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Scraping/scraper_Enrique_Krauze.ipynb)
+
+
 
 ### Cleaning
 
-We removed the html tags using RegEx. The file `hola.ipybn` in the /Cleaning directory contains all the cleaning functions:
+We then removed the html tags from the articles using RegEx. 
+
+Here is the Notebook `hola.ipybn`, which contains all the cleaning functions:
 
 - `function()`removes all html tags. 
 
@@ -53,6 +59,10 @@ Link to modules:
 - Readability Index
 - Syllables and sentence length
 - Word frequency
+
+Explain all the functions 
+
+Tabla con las métricas
 
 ### Modeling
 
