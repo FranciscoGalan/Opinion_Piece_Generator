@@ -19,13 +19,11 @@ Fragments of the generated text could then be used for social media content or o
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/dashboard_tweets.png)
 
-
-
 Finally, the project includes metrics and visualizations to see how well the Generator imitates the style of the original texts. The following is a dashboard based on the articles of the Mexican columnist Denisse Dresser:
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/dresser_dashboard.JPG)
 
-
+<!--Dashboard of Denisse Dresser-->
 
 ## How it is built
 
@@ -39,7 +37,7 @@ To demonstrate, we selected five prominent Mexican columnists and used their art
 
 We used [Selenium](https://selenium-python.readthedocs.io/) to extract all the links to the articles the authors, either from their personal website or a news & media website. Then, we extracted the body of the articles with [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
-Here's a Notebook example: [scraper_Enrique_Krauze.ipynb](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Scraping/scraper_Enrique_Krauze.ipynb)
+Here's a [**Notebook Example**](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Scraping/scraper_Enrique_Krauze.ipynb) of author Enrique Krauze.
 
 The rest of the scrapers can be found in the /Scraping directory and the raw data is located in Data/Data_raw. 
 
@@ -47,7 +45,7 @@ The rest of the scrapers can be found in the /Scraping directory and the raw dat
 
 We then removed the html tags from the articles using RegEx. 
 
-The Notebook `hola.ipybn` contains all the cleaning functions:
+The notebook **[Cleaner_main.ipybn]()** contains all the cleaning functions:
 
 - `function()`removes all html tags. 
 
