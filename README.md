@@ -27,29 +27,41 @@ Finally, the project includes metrics and visualizations to see how well the Gen
 
 ## How it is built
 
-To create the  generator, we followed these five steps:
+To create the  generator, we followed five steps:
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/pipeline_diagram.JPG)
 
-To demonstrate, we selected five prominent Mexican columnists and used their articles as a basis.
+To demonstrate, we selected the articles of five prominent Mexican columnists: 
+
+- Denisse Dresser
+- Enrique Krauze
+- John Ackerman
+- Ricardo Raphael
+- Valeria Moy
 
 ### Scraping 
 
 We used [Selenium](https://selenium-python.readthedocs.io/) to extract all the links to the articles the authors, either from their personal website or a news & media website. Then, we extracted the body of the articles with [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
-Here's a [**Notebook Example**](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Scraping/scraper_Enrique_Krauze.ipynb) of author Enrique Krauze.
+Here's a [**Notebook Example**](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Scraping/scraper_Enrique_Krauze.ipynb) for the articles of author Enrique Krauze.
 
 The rest of the scrapers can be found in the /Scraping directory and the raw data is located in Data/Data_raw. 
 
 ### Cleaning
 
-We then removed the html tags from the articles using RegEx. 
+We removed the html tags from the articles using RegEx, formatted the dates, and joined the information in a DataFrame. 
 
-The notebook **[Cleaner_main.ipybn]()** contains all the cleaning functions:
+The notebook **[Cleaner_main.ipybn]()** contains all the functions:
 
-- `function()`removes all html tags. 
+- `date_cleaning`: Transforms all scraped dates to the format YYYY/MM/DD.
+- `html_cleaner`: Cleans all html expressions.
+- `mixed_df`: Creates a mixed DataFrame and txt file to train our model.
 
+The dataset with all the scraped and cleaned articles from the authors can be found in the /Data/Data_clean_csv directory.
 
+| Dataset  | Location                                                     | Date of scraping |
+| -------- | ------------------------------------------------------------ | ---------------- |
+| Articles | https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Data/Data_clean_csv/mixed_dataframe.csv | 91-03-2021       |
 
 ### Analyzing
 
@@ -71,13 +83,3 @@ Tabla con las métricas
 ### Generating
 
 We used a Neural Network LSTM and trained it with over 1000 epochs.
-
-
-
-## Dataset
-
-The dataset with all the scraped and cleaned articles from the authors (Denisse Dresser, Enrique Krauze, John Ackerman, Ricardo Raphael, and Valeria Moy) can be found in the /Data/Data_clean_csv directory.
-
-| Dataset  | Location                                                     | Date of scraping |
-| -------- | ------------------------------------------------------------ | ---------------- |
-| Articles | https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Data/Data_clean_csv/clean_dataframe.csv | 91-03-2021       |
