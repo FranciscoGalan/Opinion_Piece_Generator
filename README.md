@@ -1,6 +1,6 @@
 # Opinion Piece Generator
 
-An neural network which writes opinion pieces based on the style of an author.
+An neural network which writes opinion pieces based on recent news and the style of an author.
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/newspaper_cover.JPG)
 
@@ -33,15 +33,26 @@ To demonstrate, we selected five famous Mexican columnists and used their articl
 
 ### Scraping 
 
+We used [Selenium](https://selenium-python.readthedocs.io/) to extract all the links to the articles the authors, either from their personal website or a news & media website. Then, we extracted the body of the articles with [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
+The scrapers can be found in the /Scraping directory.
 
 ### Cleaning
+
+We removed the html tags using RegEx. The file `hola.ipybn` in the /Cleaning directory contains all the cleaning functions:
+
+- `function()`removes all html tags. 
 
 
 
 ### Analyzing
 
+Link to modules:
 
+- WordCloud
+- Readability Index
+- Syllables and sentence length
+- Word frequency
 
 ### Modeling
 
