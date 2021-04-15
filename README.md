@@ -13,9 +13,13 @@ The Opinion Piece Generator generates a rough draft of an opinion piece based on
 > El día pasado entre el segundo debate se encuentra en estas agencias que se enredó de acuerdo al INE. El alumno no es menor, pero en vez de invertir ninguno de sus términos en nuestro país. Pero es un gobierno en otro momento, cuando está de acuerdo. Los militares no son las propuestas ni lograrán crecimiento que nunca podemos predecir o ver las divisas en la mayoría de la sociedad. Ahora bien, el INE se decidió, la libertad y un 20% de la población más alta del país hoy que le volvió al expresidente de la del Superior de la Constitución. En su vez, el Estado de medicamentos en 2017 del viejo régimen de oprobio y a medio de un comportamiento de una semana de las personas estadounidenses, en otros ámbitos de la vida para el Instituto Nacional de Normalización y venta del Banco de la Revolución Pública, hacen de favor del partido. Pero es el que hoy ha hecho un acompañamiento heroico del artículo de Andrés Manuel López Obrador para su presidencia...
 >
 
+
+
 Fragments of the generated text could then be used for social media content or other marketing materials: 
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/dashboard_tweets.png)
+
+
 
 Finally, the project includes metrics and visualizations to see how well the Generator imitates the style of the original texts. The following is a dashboard based on the articles of the Mexican columnist Denisse Dresser:
 
@@ -35,17 +39,15 @@ To demonstrate, we selected five prominent Mexican columnists and used their art
 
 We used [Selenium](https://selenium-python.readthedocs.io/) to extract all the links to the articles the authors, either from their personal website or a news & media website. Then, we extracted the body of the articles with [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
-[^1]: The scrapers can be found in the /Scraping directory and the raw data is located in Data/Data_raw.
-
 Here's a Notebook example: [scraper_Enrique_Krauze.ipynb](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Scraping/scraper_Enrique_Krauze.ipynb)
 
-
+The rest of the scrapers can be found in the /Scraping directory and the raw data is located in Data/Data_raw. 
 
 ### Cleaning
 
 We then removed the html tags from the articles using RegEx. 
 
-Here is the Notebook `hola.ipybn`, which contains all the cleaning functions:
+The Notebook `hola.ipybn` contains all the cleaning functions:
 
 - `function()`removes all html tags. 
 
