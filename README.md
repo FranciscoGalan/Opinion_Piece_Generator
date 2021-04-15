@@ -59,7 +59,6 @@ The notebook **[Cleaner_main.ipybn]()** contains all the cleaning functions:
 
 - `date_cleaning`: Transforms all scraped dates to the format YYYY/MM/DD.
 - `html_cleaner`: Cleans all html expressions.
-- `mixed_df`: Creates a mixed DataFrame and txt file to train our model.
 
 The dataset with all the scraped and cleaned articles from the authors can be found in the /Data/Data_clean_csv directory:
 
@@ -71,22 +70,14 @@ The dataset with all the scraped and cleaned articles from the authors can be fo
 
 We used several functions to calculate the clarity metrics of a text (see **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Text%20Analytics/Clarity%20metrics.ipynb)**):
 
-- `punctuation_cleaner`: Removes all punctuation and special characters from a text.
 - `avg_word_per_sentence(text)`: Returns average words per sentence of a text.
 - `avg_syllables_per_word(text)`: Returns average syllables per word of a text. It uses the [textstat](https://pypi.org/project/textstat/) library to count the syllables of a word.
 - `szigriszt_pazos_adapted(text)`: Returns the readability index of a text. It uses [textstat](https://pypi.org/project/textstat/) to calculate the [szigriszt-pazos index](https://legible.es/blog/perspicuidad-szigriszt-pazos/). 
-- `word_frequency_score`: Returns a score of how frequent are the words used in the text. It uses the [wordfreq](https://pypi.org/project/wordfreq/) library. 
+- `word_frequency_score()`: Returns a score of how frequent are the words used in the text. It uses the [wordfreq](https://pypi.org/project/wordfreq/) library. 
 
-Link to modules:
+WordCloud
 
-- WordCloud
-- Readability Index
-- Syllables and sentence length
-- Word frequency
-
-Explain all the functions 
-
-Tabla con las métricas
+Topic modeling
 
 ### Modeling
 
