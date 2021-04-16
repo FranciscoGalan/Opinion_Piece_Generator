@@ -75,14 +75,13 @@ We used several functions to calculate the clarity metrics of a text (see **[Not
 - `szigriszt_pazos_adapted(text)`: Returns the readability index of a text. It uses [textstat](https://pypi.org/project/textstat/) to calculate the [szigriszt-pazos index](https://legible.es/blog/perspicuidad-szigriszt-pazos/). 
 - `word_frequency_score()`: Returns a score of how frequent are the words used in the text. It uses the [wordfreq](https://pypi.org/project/wordfreq/) library. 
 
-WordCloud
-
-Topic modeling
+The word clouds were generated with a png image of the authors and [wordcloud](https://pypi.org/project/wordcloud/) (see **[Notebook](**https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Text%20Analytics/WordCloud%20generator.ipynb)).
 
 ### Modeling
 
-
+See **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Models/Notebooks/Model_generation_training.ipynb)**.
 
 ### Generating
 
-We used a Neural Network LSTM and trained it with over 1000 epochs.
+We used a Neural Network LSTM and trained it with over 1000 epochs. See **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Models/Text_generator/Text%20generator.ipynb)**.
+
