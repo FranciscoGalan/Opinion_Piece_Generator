@@ -1,6 +1,6 @@
 # Opinion Piece Generator
 
-An neural network which writes opinion pieces based on recent news and the style of an author.
+A neural network which writes opinion pieces based on the style of a columnist and recent news.
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/newspaper_cover.JPG)
 
