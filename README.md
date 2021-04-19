@@ -29,6 +29,11 @@ Finally, the project includes metrics and visualizations to see how well the Gen
 
 <!--Dashboard of Denisse Dresser-->
 
+All these result are compiled in a presentation:
+
+- [English version](https://docs.google.com/presentation/d/e/2PACX-1vTVM4TPNa6OdZ22WhfMQQ8K26xxAOX9WyWd9dg_BNS7Ewpo8hNM-mOuUOH-1GlZKNCRDnO4kMbf6ukK/pub?start=false&loop=false&delayms=3000)
+- [Spanish version](https://docs.google.com/presentation/d/e/2PACX-1vRMJXoboPJakyBzyhlO3Myci905Xl9RMtz5xU1tDwADMYl0jUtkbl3oK_k1aBAtPsm5F6EI3dezyBko/pub?start=false&loop=false&delayms=3000)
+
 ## How it is built
 
 To create the  generator, we followed five steps:
@@ -68,7 +73,7 @@ The dataset with all the scraped and cleaned articles from the authors can be fo
 
 ### Analyzing
 
-We used several functions to calculate the clarity metrics of a text (see **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Text%20Analytics/Clarity%20metrics.ipynb)**):
+We wrote several functions to calculate the clarity metrics of a text (see **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Text%20Analytics/Clarity%20metrics.ipynb)**):
 
 - `avg_word_per_sentence(text)`: Returns average words per sentence of a text.
 - `avg_syllables_per_word(text)`: Returns average syllables per word of a text. It uses the [textstat](https://pypi.org/project/textstat/) library to count the syllables of a word.
@@ -77,11 +82,38 @@ We used several functions to calculate the clarity metrics of a text (see **[Not
 
 The word clouds were generated with a png image of the authors and [wordcloud](https://pypi.org/project/wordcloud/) (see **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Text%20Analytics/WordCloud%20generator.ipynb)**).
 
+![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/wordclouds.JPG)
+
 ### Modeling
 
-See **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Models/Notebooks/Model_generation_training.ipynb)**.
+See **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Models/Notebooks/Model_generation_training.ipynb)** for all the details. 
+
+#### Data preparation
+
+To prepare the text data for our model, we  
+
+1. formatted it with the `clean_text` function;
+2. tokenized it with Keras's `Tokenizer` (that is, assigned a different numeric value to each word);
+3. created token sequences with `generate_sequences` function, which returns a series of X values (word-sequences of n length) and y values (the next word for a corresponding X sequence), and 
+4. converted our X and y values to np.arrays to train our model. 
+
+#### Model characteristics
+
+We have an input layer which which receives a word sequence of size 20. Also, we have an embedding layer of size 100, which holds the weights learned for each word in our tokenizer object.
+
+We decided to use Long Short Term Memory layers, a kind of Recurrent Neural Networks with can predict values based on sequences even a hundred steps long. We used four LSTM layers with Drop Out layers in between to avoid overfitting.
+
+Finally, we used a dense layer with a softmax activation, and compiled our model with an Adam optimizer and a cross entropy loss function.
+
+#### Model training
+
+Considering the limited processing power of our computers, we did multiple rounds of training with 200 epochs per round and a checkpoint function to our callbacks. In this way, we could save our model every time it improved its loss score and re-load it. Also, we generated and printed random text after each epoch to see how well it was going. 
+
+We saved the model after 1000 epochs, since, after that point, the model did not improve its score.
 
 ### Generating
 
-We used a Neural Network LSTM and trained it with over 1000 epochs. See **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Models/Text_generator/Text%20generator.ipynb)**.
+We use the Twitter API to extract a seed for our model. In this way, the model generates text about the most recent or trending news in Twitter.
+
+Then, our fake Twitter account posts fragments of the generated text (see [Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Twitter_post/Twitter_Reforma.ipynb)).
 
