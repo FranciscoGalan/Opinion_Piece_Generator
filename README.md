@@ -86,7 +86,7 @@ The word clouds were generated with a png image of the authors and [wordcloud](h
 
 ### Modeling
 
-See **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Models/Notebooks/Model_generation_training.ipynb)** for all the details. 
+This **[Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Models/Notebooks/Model_generation_training.ipynb)** contains all the following steps in the modeling process. 
 
 #### Data preparation
 
@@ -115,5 +115,5 @@ We saved the model after 1000 epochs, since, after that point, the model did not
 
 We use the Twitter API to extract a seed for our model. In this way, the model generates text about the most recent or trending news in Twitter.
 
-Then, our fake Twitter account posts fragments of the generated text (see [Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Twitter_post/Twitter_Reforma.ipynb)).
+Then, our [fake Twitter account](https://twitter.com/IhLstm) posts fragments of the generated text (see [Notebook](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Twitter_post/Twitter_Reforma.ipynb)).
 
