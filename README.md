@@ -13,7 +13,6 @@ NOTE: Although all the examples shown in this file are in Spanish, the model can
 The Opinion Piece Generator generates a rough draft of an opinion piece based on the style of one or various texts:
 
 > El día pasado entre el segundo debate se encuentra en estas agencias que se enredó de acuerdo al INE. El alumno no es menor, pero en vez de invertir ninguno de sus términos en nuestro país. Pero es un gobierno en otro momento, cuando está de acuerdo. Los militares no son las propuestas ni lograrán crecimiento que nunca podemos predecir o ver las divisas en la mayoría de la sociedad. Ahora bien, el INE se decidió, la libertad y un 20% de la población más alta del país hoy que le volvió al expresidente de la del Superior de la Constitución. En su vez, el Estado de medicamentos en 2017 del viejo régimen de oprobio y a medio de un comportamiento de una semana de las personas estadounidenses, en otros ámbitos de la vida para el Instituto Nacional de Normalización y venta del Banco de la Revolución Pública, hacen de favor del partido. Pero es el que hoy ha hecho un acompañamiento heroico del artículo de Andrés Manuel López Obrador para su presidencia...
->
 
 <br/>
 
@@ -60,7 +59,7 @@ The rest of the scrapers can be found in the /Scraping directory and the raw dat
 
 We removed the html tags from the articles using RegEx, formatted the dates, and joined the information in a DataFrame. 
 
-The notebook **[Cleaner_main.ipybn]()** contains all the cleaning functions:
+The notebook **[Cleaner_main.ipybn](https://nbviewer.jupyter.org/github/FranciscoGalan/Opinion_Piece_Generator/blob/main/Cleaning/Cleaner_main.ipynb)** contains all the cleaning functions:
 
 - `date_cleaning`: Transforms all scraped dates to the format YYYY/MM/DD.
 - `html_cleaner`: Cleans all html expressions.
