@@ -22,7 +22,7 @@ Fragments of the generated text could then be used for social media content or o
 
 <br/>
 
-Finally, the project includes metrics and visualizations to see how well the Generator imitates the style of the original texts. The following is a dashboard based on the articles of the Mexican columnist Denisse Dresser:
+Finally, the project includes metrics and visualizations to see how well the Generator imitates the style of the original texts. The following is are some metrics based on the articles of the Mexican columnist Denisse Dresser:
 
 ![](https://github.com/FranciscoGalan/Opinion_Piece_Generator/blob/main/Media/dresser_dashboard.JPG)
 
